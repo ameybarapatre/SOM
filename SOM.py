@@ -18,7 +18,7 @@ class SOM(object):
         Initializes all necessary components of the TensorFlow
         Graph.
 
-        m X n are the dimensions of the SOM. 'n_iterations' should
+        m is the  list of dimensions of the SOM. 'n_iterations' should
         should be an integer denoting the number of iterations undergone
         while training.
         'dim' is the dimensionality of the training inputs.
